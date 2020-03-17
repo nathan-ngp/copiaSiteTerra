@@ -253,7 +253,7 @@ body{
     height: 40%;
     border:1px solid gray;
     margin: 20px 0 20px 20px;
-    background-image: url(/virus.jpg);
+    background-image: url(imagens/virus.jpg);
     background-repeat: no-repeat;
     background-size: 40% 100%;
     cursor: pointer;
@@ -264,7 +264,7 @@ body{
     height: 40%;
     border:1px solid gray;
     margin: 20px 0 20px 60px;
-    background-image: url(f1.jpg);
+    background-image: url(imagens/f1.jpg);
     background-repeat: no-repeat;
     background-size: 40% 100%;
     cursor: pointer;
@@ -275,7 +275,7 @@ body{
     height: 40%;
     border:1px solid gray;
     margin: 0px 30px 20px 19px;
-    background-image: url(ronaldinho.jpg);
+    background-image: url(imagens/ronaldinho.jpg);
     background-repeat: no-repeat;
     background-size: 40% 100%;
     cursor: pointer;
@@ -286,7 +286,7 @@ body{
     height: 40%;
     border:1px solid gray;
     margin: 0px 0 20px 30px;
-    background-image: url(if.jfif);
+    background-image: url(imagens/if.jfif);
     background-repeat: no-repeat;
     background-size: 40% 100%;
     cursor: pointer;
