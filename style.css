@@ -1,0 +1,309 @@
+body{
+    margin: 0;
+    background-color: white;
+}
+
+/*MENUUU*/
+
+#menuSuperior{
+    padding: 20px;
+    background-color: rgb(255, 114, 18);
+    color: white;
+    margin: 0;
+    width: 100%;
+    height: 20px;  
+    display: flex;
+    position: absolute;
+    list-style: none;
+}
+
+.menuSuperior1{
+    position: absolute;
+    display: flex;
+    height: 60px;
+    width: 100%;
+    background-color: rgb(255, 114, 18);
+}
+
+.menuSuperior1 li{
+    text-align: center;
+    width: 50px;
+    margin-left: 10px;
+    line-height: 25px;
+    display: flex;
+    cursor: pointer;
+}
+
+.menuSuperior1 i{
+    margin-left: 5px;
+    line-height: 25px;
+}
+
+#txtBuscar{
+    padding: 5px;
+    color:gray;
+    border-radius: 20px;
+    border:none;
+}
+
+#lupa{
+    line-height: 18px;
+    margin-left: 122px;
+    color: rgb(165, 165, 152);
+}
+
+#logo{
+    position: absolute;
+    margin: 5px;
+    margin-left: 40%;   
+    height: 42px;
+    width: 120px;
+    cursor: pointer;
+
+}
+
+#texto1{
+    position: absolute;
+    font-size: 15px;
+    color: white;
+    margin: 0px;
+}
+
+#baiano{
+    position: absolute;
+    height: 40px;
+    width: 300px;
+    margin: 13px 0px 0px 55%;
+    text-align: left;
+    cursor: pointer;
+}
+
+#mensagens{
+    position: absolute;
+    line-height: 18px;
+    margin-left: 1200px;
+    color: white;
+}
+
+#user{
+    position: absolute;
+    line-height: 18px;
+    margin-left: 1180px;
+    color: white;
+}
+
+#email{
+    position: absolute;
+    line-height: 18px;
+    margin-left: 1150px;
+    color: white;
+}
+
+#tempo{
+    position: absolute;
+    line-height: 18px;
+    margin-left: 1130px;
+    color: white;
+}
+
+#caranguejo{
+    position: absolute;
+    height: 21px;
+    margin-left: 1590px;
+    margin-top: 0;
+    cursor: pointer;
+}
+
+#bola{
+    position: absolute;
+    line-height: 18px;
+    margin-left: 1134px;
+    color: white;
+}
+/*MENUUUU*/
+
+/*COALA*/
+
+#coala{
+    background-color: rgb(37, 169, 252);
+    width: 320px;
+    height: 240px;
+    position: absolute;
+    margin-top: 12%;
+    margin-left: 70%;
+}
+
+#cabeloMaior{
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 30px solid rgb(166, 190, 207);
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 8px;
+}
+
+#cabeloMenor{
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 20px solid rgb(166, 190, 207);
+    position: absolute;
+    margin-left: 170px;
+    margin-top: 14px;
+}
+
+#cabeca{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(166, 190, 207);
+    border-radius: 100%;
+    margin-left: 60px;
+    margin-top: 25px;
+    position: absolute;
+    display: flex;
+}
+
+.orelhas{
+    background-color: rgb(166, 190, 207);
+}
+
+#orelhaDireita{
+    position: absolute;
+    height: 140px;
+    width: 120px;
+    border: 2px;
+    margin-top: 15px;
+    margin-left: 200px;
+    border-radius: 100%;
+}
+
+.fundoOrelha{
+    position: absolute;
+    width: 80px;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 100%;
+    background-color: rgb(129, 156, 175);
+}
+
+#orelhaEsquerda{
+    position: absolute;
+    height: 140px;
+    width: 120px;
+    border: 2px;
+    margin-top: 15px;
+    border-radius: 100%;
+}
+
+.olhos{
+    background-color: white;
+    border-radius: 100%;
+    margin-top: 60px;
+}
+
+#olhoEsquerdo{
+    width: 60px;
+    height: 60px;
+    margin-left: 40px;
+}
+
+#olhoDireito{
+    width: 60px;
+    height: 60px;
+}
+
+.pupila{
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 100%;
+}
+
+#nariz{
+    width: 30px;
+    height: 60px;
+    background-color: rgb(190, 132, 95);
+    position: absolute;
+    border-radius: 30%;
+    margin-top: 90px;
+    margin-left: 85px;
+}
+/*COALA*/
+
+/*BANNERS*/
+
+#informacoes{
+    position: absolute;
+    width: 800px;
+    height: 350px;
+    margin-top: 200px;
+    margin-left: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#banner1{
+    width: 40%;
+    height: 40%;
+    border:1px solid gray;
+    margin: 20px 0 20px 20px;
+    background-image: url(/virus.jpg);
+    background-repeat: no-repeat;
+    background-size: 40% 100%;
+    cursor: pointer;
+}
+
+#banner2{
+    width: 40%;
+    height: 40%;
+    border:1px solid gray;
+    margin: 20px 0 20px 60px;
+    background-image: url(f1.jpg);
+    background-repeat: no-repeat;
+    background-size: 40% 100%;
+    cursor: pointer;
+}
+
+#banner3{
+    width: 40%;
+    height: 40%;
+    border:1px solid gray;
+    margin: 0px 30px 20px 19px;
+    background-image: url(ronaldinho.jpg);
+    background-repeat: no-repeat;
+    background-size: 40% 100%;
+    cursor: pointer;
+}
+
+#banner4{
+    width: 40%;
+    height: 40%;
+    border:1px solid gray;
+    margin: 0px 0 20px 30px;
+    background-image: url(if.jfif);
+    background-repeat: no-repeat;
+    background-size: 40% 100%;
+    cursor: pointer;
+}
+
+.titulo{
+    color: red;
+    margin: 0px 0px 0 135px;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.subtitulo{
+    color: black;
+    margin: 10px 0px 0 135px;
+    font-size: 15px;
+    cursor: pointer;
+}
+/*BANNERS*/
+
